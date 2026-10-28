@@ -45,8 +45,43 @@
   }
 }
 
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes settle {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .animate-rise {
+    animation: rise 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-settle {
+    animation: settle 2s ease-out both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-settle {
+    animation: none;
   }
 }
