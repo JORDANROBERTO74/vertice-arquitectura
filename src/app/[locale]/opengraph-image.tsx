@@ -63,7 +63,7 @@ export default async function Image({
               maxWidth: "900px",
             }}
           >
-            {dict.hero.titleLine1} {dict.hero.titleLine2}
+            {`${dict.hero.titleLine1} ${dict.hero.titleLine2}`}
           </div>
           <div
             style={{
