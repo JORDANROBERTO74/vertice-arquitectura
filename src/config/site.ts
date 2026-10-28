@@ -1,6 +1,6 @@
 export const site = {
   name: "Vértice Arquitectura",
-  domain: "vertice-arquitectura.vercel.app",
+  domain: "verticearquitectura.vercel.app",
   get url() {
     return process.env.NEXT_PUBLIC_SITE_URL || `https://${this.domain}`;
   },

@@ -89,7 +89,7 @@ export default async function Image({
             color: "#737373",
           }}
         >
-          <span>vertice-arquitectura.vercel.app</span>
+          <span>verticearquitectura.vercel.app</span>
           <span>41.3874° N, 2.1686° E</span>
         </div>
       </div>

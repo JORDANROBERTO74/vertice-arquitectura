@@ -8,7 +8,7 @@ This ledger records the origin, brand transformation, and asset provenance for *
 - **Duplicate Removed:** `minimal-architecture-landing` (identical variant, deleted)
 - **Rebuilt Project Name:** `vertice-arquitectura`
 - **Final Repository:** `https://github.com/JORDANROBERTO74/vertice-arquitectura`
-- **Live Production URL:** `https://vertice-arquitectura.vercel.app`
+- **Live Production URL:** `https://verticearquitectura.vercel.app`
 - **Mode:** Change pass over the existing layout, raised to production standard.
 
 The original header brand ("Línea Norte") was discarded: an active repository of the same name already exists under the account, and reusing it would create a naming collision.

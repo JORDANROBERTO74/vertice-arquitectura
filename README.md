@@ -105,7 +105,7 @@ The site is deployed on Vercel and builds with the default Next.js preset. Impor
 vercel deploy --prod
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` when serving from a custom domain; otherwise the canonical URL falls back to `https://vertice-arquitectura.vercel.app`.
+Set `NEXT_PUBLIC_SITE_URL` when serving from a custom domain; otherwise the canonical URL falls back to `https://verticearquitectura.vercel.app`.
 
 ## Performance & SEO
 
