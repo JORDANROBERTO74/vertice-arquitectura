@@ -52,3 +52,8 @@ The template shipped with `images.unsplash.com` URLs. Those photographs were dow
 - `pnpm typecheck`, `pnpm lint` and `pnpm build` complete without errors or warnings.
 - `robots.txt`, multilingual `sitemap.xml`, `hreflang` alternates and a generated 1200x630 OpenGraph card are in place.
 - Scroll-reveal is progressive: content is rendered in the document at all times and only the entrance transition depends on `IntersectionObserver`.
+
+## License note
+
+This repository contains derivative work. The license covers only the original
+contributions of the copyright holder. See [LICENSE](../LICENSE).
